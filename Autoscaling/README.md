@@ -9,7 +9,7 @@ aws iam create-policy \
   --profile devwithrico --region us-east-1
 ```
 
-This step needs to be checked. For now, use the AWS Management Console.
+This step needs to be checked. For now, use the [AWS Management Console](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html).
 
 ```shell
 aws iam create-role --role-name AmazonEKSClusterAutoscalerRole --assume-role-policy-document file://cluster-autoscaler-policy.json \
